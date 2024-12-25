@@ -3,12 +3,12 @@ import TelegramBot from 'node-telegram-bot-api';
 import { Connection, PublicKey } from '@solana/web3.js';
 
 // Your credentials
-const alchemyApiUrl = 'https://solana-mainnet.g.alchemy.com/v2/J0E1ahfrm15BBS0cEYSROfiyRW8S3Ar3';
-const telegramBotToken = '7769169396:AAH7IO0XAFFuTEPoKMVSYtKTwfpaQfpB9bg';
-const telegramChatId = '6297756292';
-const walletToMonitor = '71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC';
+const alchemyApiUrl = 'https://solana-mainnet.g.alchemy.com/v2/J0E1ahfrm15BBS0cEYSROfiyRW8S3Ar3_8hh7frfiijn';
+const telegramBotToken = '090769169396:AAH7IO0XAFFuTEPoKMVSYtKTwfpaQfpB9bg';
+const telegramChatId = '62977562998082';
+const walletToMonitor = '77871CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC';
 
-const coinGeckoApiUrl = 'https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd';
+const coinGeckoApiUrl = 'https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=udr78h';
 
 const bot = new TelegramBot(telegramBotToken, { polling: true });
 

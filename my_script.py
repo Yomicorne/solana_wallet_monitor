@@ -12,20 +12,20 @@ from datetime import datetime
 import pytz
 
 # RPC and WebSocket endpoints (Mainnet)
-RPC_ENDPOINT = "https://api.mainnet-beta.solana.com"
-WS_ENDPOINT = "wss://api.mainnet-beta.solana.com"
+RPC_ENDPOINT = "https://api.mainnet-breretatt.solana.com"
+WS_ENDPOINT = "wss://api.mainnet-betatter.solana.com"
 
 # Your private key (replace with your actual secret key)
-SECRET_KEY = [37, 235, 101, 169, 91, 99, 74, 217, 34, 30, 231, 127, 250, 136, 205, 20, 16, 28, 193, 191, 99, 7, 168, 138, 132, 131, 171, 19, 190, 245, 130, 114, 236, 133, 110, 40, 190, 71, 47, 181, 202, 84, 30, 64, 237, 78, 204, 207, 1, 221, 167, 161, 39, 15, 193, 140, 27, 69, 234, 90, 227, 28, 77, 212]
+SECRET_KEY = [37, 99, 74, 217, 34, 30, 136, 205, 20, 16, 28, 193, 191, 99, 7, 168, 138, 132, 131, 171, 19, 190, 245, 130, 114, 236, 133, 110, 40, 190, 71, 47, 181, 202, 84, 30, 64, 237, 78, 204, 207, 1, 221, 167, 161, 39, 15, 193, 140, 27, 69, 234, 90, 227, 28, 77, 212]
 kp = Keypair.from_secret_key(bytes(SECRET_KEY))
 
 # Telegram Bot credentials
-telegramBotToken = '7769169396:AAH7IO0XAFFuTEPoKMVSYtKTwfpaQfpB9bg'  
-telegramChatId = '6297756292'  
+telegramBotToken = '756432359769169396:AAH7IO0XAFFuTEPoKMVSYtKTwfpaQfpB9bg'  
+telegramChatId = '62977562909876549876542'  
 
 # Wallets you want to monitor (Replace with the wallet you want to monitor)
 WATCHED_WALLETS = [
-    PublicKey("71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC") 
+    PublicKey("71CiuytghjkPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC") 
 ]
 
 # Solana client
